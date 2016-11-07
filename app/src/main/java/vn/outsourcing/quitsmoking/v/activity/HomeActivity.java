@@ -5,11 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 
 import vn.outsourcing.quitsmoking.R;
 
-public class MainActivity extends AppCompatActivity {
+/**
+ * Created by VietRuyn on 07/11/2016.
+ */
+
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
     }
 }

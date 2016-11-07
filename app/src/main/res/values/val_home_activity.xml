@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Color
+    <color name="home_screen_background">#dcdcdc</color>
+    <color name="home_screen_achievement">#fbcb5f</color>
+    <color name="home_screen_heart">#fc6e5a</color>
+    <color name="home_screen_setting">#56606a</color>
+
+
+
+    //Dimen
+    <dimen name="home_screen_task_margin">10dp</dimen>
+    <dimen name="home_screen_item_margin">4dp</dimen>
+    <dimen name="home_screen_circle_margin_top">10dp</dimen>
+    <dimen name="home_screen_size_line_circle">2dp</dimen>
+    <dimen name="home_screen_size_circle">120dp</dimen>
+    <dimen name="home_screen_margin_text_time">5dp</dimen>
+    <dimen name="home_screen_text_time_margin_top">20dp</dimen>
+
+    <dimen name="home_screen_text_time">18sp</dimen>
+    <dimen name="home_screen_text">14sp</dimen>
+    <dimen name="home_screen_text_am">12sp</dimen>
+    
+    //String
+    <string name="days_without_smoking">Days without smoking:&#032;</string>
+    <string name="cigarettes_not_smoked">Cigarettes not smoked:&#032;</string>
+    <string name="money_saved">Money Saved:&#032;</string>
+    <string name="time_saved">Time Saved:&#032;</string>
+    <string name="achievement">achievement</string>
+    <string name="health">health</string>
+    <string name="setting">setting</string>
+
+</resources>
