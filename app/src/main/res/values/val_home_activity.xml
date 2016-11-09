@@ -30,5 +30,6 @@
     <string name="achievement">achievement</string>
     <string name="health">health</string>
     <string name="setting">setting</string>
+    <string name="press_if_you_smoke_again">Press\nif you smoke again</string>
 
 </resources>

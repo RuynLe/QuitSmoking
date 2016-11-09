@@ -20,44 +20,33 @@
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/home_screen_circle_margin_top"
             android:layout_weight="4"
-            android:gravity="center_horizontal">
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="@dimen/home_screen_size_circle"
                 android:layout_height="@dimen/home_screen_size_circle"
-                android:background="@drawable/shape_circle_white">
+                android:background="@drawable/shape_circle_white"
+                android:padding="5dp">
 
-                <TextView
-                    android:id="@+id/tvAM"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/tvTime"
-                    android:layout_alignLeft="@+id/tvTime"
-                    android:text="AM"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="@dimen/home_screen_text_am" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_smoking" />
 
-                <TextView
-                    android:id="@+id/tvTime"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:text="12:00:00"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="@dimen/home_screen_text_time"
-                    android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/tvDate"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignLeft="@+id/tvTime"
-                    android:layout_alignStart="@+id/tvTime"
-                    android:layout_below="@+id/tvTime"
-                    android:text="18/10/2016"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="@dimen/home_screen_text_am" />
             </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/home_screen_item_margin"
+                android:gravity="center"
+                android:text="@string/press_if_you_smoke_again"
+                android:textColor="@color/color_red"
+                android:textSize="@dimen/home_screen_text" />
         </LinearLayout>
 
         <LinearLayout
@@ -206,19 +195,24 @@
             android:layout_margin="@dimen/home_screen_item_margin"
             android:layout_weight="3"
             android:background="@drawable/shape_background_achievement_radius">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:text="@string/achievement"
                 android:textAllCaps="true"
                 android:textColor="@android:color/white"
-                android:textStyle="bold"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"/>
+                android:textSize="@dimen/home_screen_text"
+                android:textStyle="bold" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:scaleType="centerInside" />
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_achievement" />
         </RelativeLayout>
     </LinearLayout>
 
@@ -240,18 +234,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:text="@string/health"
                 android:textAllCaps="true"
                 android:textColor="@android:color/white"
-                android:textStyle="bold"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"/>
+                android:textSize="@dimen/home_screen_text"
+                android:textStyle="bold" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:scaleType="centerInside"
                 android:layout_centerInParent="true"
-                android:src="@drawable/ic_hearth"/>
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_hearth" />
         </RelativeLayout>
     </LinearLayout>
 
@@ -273,16 +269,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:text="@string/setting"
                 android:textAllCaps="true"
                 android:textColor="@android:color/white"
-                android:textStyle="bold"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"/>
+                android:textSize="@dimen/home_screen_text"
+                android:textStyle="bold" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:scaleType="centerInside" />
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_setting" />
         </RelativeLayout>
     </LinearLayout>
 
