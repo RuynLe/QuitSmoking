@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_item">40dp</dimen>
+    <dimen name="labeltext">16dp</dimen>
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_value">20sp</dimen>
+    <dimen name="margin_layout">5dp</dimen>
+    <dimen name="margin_layout_main">8dp</dimen>
+
+    <color name="back_ground_main">#FFDFDFE5</color>
+    <color name="gray">#464647</color>
+    <color name="write">#ffffff</color>
+    <color name="text_value">#FF009BCE</color>
+    <color name="text_diable">#FFCDCDCD</color>
+    <color name="bg_action_bar">#e6e6e6</color>
+</resources>
