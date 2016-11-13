@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_health"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.outsourcing.quitsmoking.v.activity.Health">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout1"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt1"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout2"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt2"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout3"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt3"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt3"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout4"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt4"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt4"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout5"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt5"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt5"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout6"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt6"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt6"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout7"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt7"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt7"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout8"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt8"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt8"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout9"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt9"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt9"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout10"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt10"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt10"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:onClick="layout11"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/line_size"
+                android:weightSum="12"
+                android:background="@color/background_item">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <vn.outsourcing.quitsmoking.m.DonutProgress android:id="@+id/prgTextHealt11"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="@dimen/cirlce_size"
+                        android:layout_height="@dimen/cirlce_size"
+                        app:donut_circle_starting_degree="269"
+                        app:donut_finished_color="@color/cirlce_color_finish"
+                        app:donut_finished_stroke_width="@dimen/finished_stroke_width"
+                        app:donut_progress="0"
+                        app:donut_suffix_text=""
+                        app:donut_text="0%"
+                        app:donut_text_color="@color/cirlce_color_text"
+                        app:donut_text_size="@dimen/cirlce_text_size"
+                        app:donut_unfinished_color="@color/cirlce_color_unfinish"
+                        app:donut_unfinished_stroke_width="@dimen/unfinished_stroke_width" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textHealt11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/text_healt11"
+                        android:textAlignment="viewStart"
+                        android:gravity="left|center"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

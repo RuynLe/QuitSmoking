@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="text_healt1">Your blood pressure, pulse rate and the temperature of your hands and feet are beginning to return to normal</string>
+    <string name="text_healt2">Remaining nicotine in your bloodstream has fallen to less than half of normal peak daily levels</string>
+    <string name="text_healt3">Carbon monoxide and oxygen levels back to normal</string>
+    <string name="text_healt4">Sudden death risk lowered</string>
+    <string name="text_healt5">Taste and smell senses regained</string>
+    <string name="text_healt6">standardization of respiratory function</string>
+    <string name="text_healt7">Elimination of physical dependence on nicotine</string>
+    <string name="text_healt8">Improvement of blood circulation and skin hydration, and disappearance of premature wrinkles</string>
+    <string name="text_healt9">Physical condition improved</string>
+    <string name="text_healt10">Heart disease death risk reduced to half</string>
+    <string name="text_healt11">Rick of developing lung cancer at same level as a non-smoker</string>
+
+    <color name="text_black">#FF000000</color>
+    <color name="background">#CCCCFF</color>
+    <color name="background_item">#FFFFFFFF</color>
+    <color name="no_opacity">#00FFFFFF</color>
+
+    <!-- cirlce start -->
+    <dimen name="cirlce_text_size">18sp</dimen>
+    <dimen name="cirlce_size">85dp</dimen>
+    <dimen name="unfinished_stroke_width">7dp</dimen>
+    <dimen name="finished_stroke_width">8dp</dimen>
+
+    <color name="cirlce_color_text">#0080FF</color>
+    <color name="cirlce_color_finish">#0080FF</color>
+    <color name="cirlce_color_unfinish">#D8D8D8</color>
+    <!-- cirlce end-->
+
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="line_size">2dp</dimen>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@color/no_opacity</item>
+        <item name="android:layout_margin">2dp</item>
+
+    </style>
+
+</resources>
